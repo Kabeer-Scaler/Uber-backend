@@ -92,7 +92,9 @@ src/main/java/com/Kabeer/Uber
 ├── service/       # Business Logic Service Classes
 └── util/          # JWT Utilities
 
-🧾 Data Models
+
+## 🧾 Data Models
+
 🧑 User Model
 JSON
 
