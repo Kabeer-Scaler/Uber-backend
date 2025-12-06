@@ -229,8 +229,9 @@ Complete the ride.
 Bash
 
 git clone [https://github.com/yourusername/uber-backend.git](https://github.com/yourusername/uber-backend.git)
+
 2️⃣ Configure MongoDB
-Create src/main/resources/application.yml. (Note: This file is ignored in .gitignore for security)
+Create src/main/resources/application.yaml. (Note: This file is ignored in .gitignore for security)
 
 YAML
 
@@ -242,6 +243,7 @@ spring:
       # Use Localhost or Atlas URI
       uri: mongodb://localhost:27017/uber_db
       # uri: mongodb+srv://<username>:<password>@cluster0.mongodb.net/uber_db
+      
 3️⃣ Run the Application
 Bash
 
