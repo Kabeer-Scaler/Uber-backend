@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: Uber
+
+  mongodb:
+    uri: mongodb://127.0.0.1:27017/uber_db
+
+app:
+  jwt:
+    secret: "MySecretKeyForTokenGeneration12456789"
+    expiration-ms: 86400000
+
