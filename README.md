@@ -80,7 +80,6 @@ The project follows a **Clean 3-Layer Architecture**:
 
 ## 📂 Folder Structure
 
-```bash
 src/main/java/com/Kabeer/Uber
 │
 ├── config/        # Security configurations + JWT filter
@@ -116,7 +115,8 @@ JSON
   "status": "REQUESTED / ACCEPTED / COMPLETED",
   "createdAt": "Date"
 }
-📡 API Endpoints
+
+## 📡 API Endpoints
 🔐 Authentication
 Register User/Driver
 POST /api/auth/register
@@ -166,7 +166,7 @@ POST /api/v1/driver/rides/{rideId}/accept
 Complete a Ride
 POST /api/v1/rides/{rideId}/complete
 
-🔐 Authentication (JWT)
+## 🔐 Authentication (JWT)
 All protected endpoints require the Authorization header:
 
 Authorization: Bearer <your_token_here>
@@ -181,7 +181,7 @@ expiration
 
 issuedAt
 
-⚠️ Global Exception Handling
+## ⚠️ Global Exception Handling
 Error responses follow a consistent format:
 
 JSON
@@ -201,7 +201,7 @@ Bad Credentials
 
 Internal Server Errors
 
-🧪 Postman Usage
+## 🧪 Postman Usage
 Register Passenger (/api/auth/register with ROLE_USER)
 
 Register Driver (/api/auth/register with ROLE_DRIVER)
@@ -224,7 +224,7 @@ Switch to Driver token -> Accept the ride.
 
 Complete the ride.
 
-🛠 Setup Instructions
+## 🛠 Setup Instructions
 1️⃣ Clone Repository
 Bash
 
